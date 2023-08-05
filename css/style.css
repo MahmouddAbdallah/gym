@@ -370,3 +370,6 @@ footer .search{
     right: 15px;
     bottom: 8px;
 }
+footer  svg{
+    font-size: 20px;
+}

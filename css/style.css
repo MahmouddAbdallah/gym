@@ -373,3 +373,56 @@ footer .search{
 footer  svg{
     font-size: 20px;
 }
+.getStarted{
+    display: flex;
+    align-items: center;
+}
+@media (max-width:450px){
+    header ,section{
+        padding: 5px !important;
+    }
+    .container{
+        padding:0px 10px !important;
+        margin:0px !important;
+    }
+    .ticket{
+        padding: 5px 10px !important;
+    }
+    .ticket-hero {
+        left: -50px;
+        bottom:10px;
+    }
+    .ticket-hero h3{
+        margin-top: -10px;
+        font-size: 15px;
+    }.getStarted{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .section-2 .hero .ticket{
+        bottom: 20px;
+        right: -50px;
+    }
+    .section-4 .image{
+        width: 300px;
+        height: 300px;
+    }
+    .section-4 .image img{
+        width: 170px;
+    }
+    .section-4 .image .ticket-1{
+        bottom: 10px;
+        left: -20px;
+    }
+    .section-4 .image .ticket-2{
+        top: 30px;
+        right: -30px;
+    }
+    .section-5 .card{
+        padding: 10px 50px;
+        width: 350px;
+    }
+    .section-5 .card .number{
+        font-size: 40px;
+    }
+}
